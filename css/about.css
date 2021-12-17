@@ -1,0 +1,67 @@
+
+.page_redirect{
+width: 80px;
+margin-left: 10px;
+
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'playfair display','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+}
+
+div h1{
+	margin: 40px;
+}
+
+.slideTemp{
+	margin-left: 20px;
+	padding: 25px;
+	box-shadow: 5px 10px 18px #888888;
+	width: 550px;
+	height: 250px;
+}
+
+.splide__slide i{
+	font-size:48px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	padding: 20px;
+}
+.splide__slide h2 {
+	margin-left: 150px;
+}
+
+.splide__list li{
+	margin: 30px;
+}
+
+.flex_section{
+	display: flex;
+}
+
+.flex_section div {
+	flex: 1;
+	margin: 10px;
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.flex_section div + div {
+	padding-right: 30px;
+}
+
+.flex_section div p, li{
+	font-size: 20px;
+	color: GrayText;
+}
+
+@media only screen and (max-width: 900px){
+	.splide__slide{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
